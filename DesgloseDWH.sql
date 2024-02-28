@@ -1,0 +1,26 @@
+CREATE TABLE [dbo].[DesgloseDWH](
+       [ID] [int] NULL,
+       [Empresa] [char](5) NULL,
+       [NombreEmpresa] [varchar](100) NULL,
+       [Sucursal] [int] NULL,
+       [NombreSucursal] [varchar](100) NULL,
+       [Moneda] [char](20) NULL,
+       [Contacto] [char](10) NULL,
+       [FechaEmision] [datetime] NULL,
+       [Proyecto] [varchar](50) NULL,
+       [UEN] [int] NULL,
+       [CentroCostos] [varchar](20) NULL,
+       [CuentaDinero] [char](10) NULL,
+       [Modulo] [char](5) NULL,
+       [IDPoliza] [int] NULL,
+       [Poliza] [char](20) NULL,
+       [Consecutivo] [varchar](20) NULL,
+       [Referencia] [varchar](50) NULL,
+       [Observaciones] [varchar](100) NULL,
+       [Origen] [varchar](20) NULL,
+       [OrigenID] [varchar](20) NULL,
+       [Debe] [money] NULL,
+       [Haber] [money] NULL,
+       [SpidSQL] [int] NULL
+) ON [PRIMARY]
+GO
